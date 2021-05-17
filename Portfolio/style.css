@@ -33,6 +33,10 @@
     margin: auto;
     font-size: 2rem;
   }
+
+#canvas{
+  align-self: center;
+}
   
   
   .carousel__face:nth-child(1) {
@@ -82,4 +86,8 @@
   background-image: url(picture.jpeg);
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+section{
+  scroll-snap-align: center;
 }
