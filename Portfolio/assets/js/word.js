@@ -25,9 +25,9 @@ wordSphere(canvas, texts, counts, options);
 function wordSphere(canvas, texts, counts, options) {
   const π = Math.PI; // happy math!
   const {
-    width = 1000,
-    height = 1000,
-    radius = 400,
+    width = 900,
+    height = 900,
+    radius = 350,
     padding = 50,
     fontSize = 44,
     tilt = 0,
