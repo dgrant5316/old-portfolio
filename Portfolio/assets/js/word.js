@@ -5,15 +5,16 @@ const texts = [
   'CSS', 'Mongoose', 'API', 'AWS', 'MongoDB',
   'PHP', 'NodeJS', 'Git', 'Github', 'Project Management',
   'Database Managment', 'Bootstrap', 'Web Development',
+  'REST',
 ];
 const counts = [1,2,4,5,4,2,1];
 
 const options = {
   tilt: Math.PI / 9,
-  initialVelocityX: 0.09,
-  initialVelocityY: 0.09,
+  initialVelocityX: 0.5,
+  initialVelocityY: 0.5,
   initialRotationX: Math.PI * 0.14,
-  initialRotationZ: 0
+  initialRotationZ: 0.2
 };
 
 wordSphere(canvas, texts, counts, options);
@@ -64,12 +65,12 @@ function wordSphere(canvas, texts, counts, options) {
     [lastX, lastY] = [event.screenX, event.screenY];
 
     // rotation update
-    rz += -dy * 0.01;
-    rx += dx * 0.01;
+    rz += -dy * 0.03;
+    rx += dx * 0.03;
 
     // velocity update
-    vx = dx * 0.1;
-    vy = dy * 0.1;
+    vx = dx * 0.03;
+    vy = dy * 0.03;
 
     if (!looping) startLoop();
   });
