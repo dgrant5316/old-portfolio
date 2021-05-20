@@ -44,31 +44,31 @@
   
   .carousel__face:nth-child(1) {
     background-image: url(amiibots.png);
-    transform: rotateY(  0deg) translateZ(455px); }
+    transform: rotateY(  0deg) translateZ(453px); }
   .carousel__face:nth-child(2) { 
     background-image: url(dragon1.png);
-      transform: rotateY( 40deg) translateZ(455px); }
+      transform: rotateY( 40deg) translateZ(453px); }
   .carousel__face:nth-child(3) {
     background-image: url(vote.png);
-    transform: rotateY( 80deg) translateZ(455px); }
+    transform: rotateY( 80deg) translateZ(453px); }
   .carousel__face:nth-child(4) {
     background-image: url(duck.png);
-    transform: rotateY(120deg) translateZ(455px); }
+    transform: rotateY(120deg) translateZ(453px); }
   .carousel__face:nth-child(5) { 
     background-image: url(overwatch.png);
-   transform: rotateY(160deg) translateZ(455px); }
+   transform: rotateY(160deg) translateZ(453px); }
   .carousel__face:nth-child(6) { 
     background-image: url();
-   transform: rotateY(200deg) translateZ(455px); }
+   transform: rotateY(200deg) translateZ(453px); }
   .carousel__face:nth-child(7) { 
     background-image: url();
-   transform: rotateY(240deg) translateZ(455px); }
+   transform: rotateY(240deg) translateZ(453px); }
   .carousel__face:nth-child(8) {
     background-image: url();
-    transform: rotateY(280deg) translateZ(455px); }
+    transform: rotateY(280deg) translateZ(453px); }
   .carousel__face:nth-child(9) {
     background-image: url();
-    transform: rotateY(320deg) translateZ(455px); }
+    transform: rotateY(320deg) translateZ(453px); }
   
   
   
@@ -93,4 +93,13 @@
 
 section{
   scroll-snap-align: center;
+}
+
+.contact {
+  padding: 10px;
+    font-size: 30px;
+    width: 70px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 5px 5px;
 }
